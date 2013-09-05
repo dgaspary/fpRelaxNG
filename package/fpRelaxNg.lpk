@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <Package Version="4">
+    <Name Value="fpRelaxNg"/>
+    <Author Value="Daniel F. Gaspary"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <SearchPaths>
+        <OtherUnitFiles Value=".."/>
+        <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+      <Linking>
+        <Debugging>
+          <UseExternalDbgSyms Value="True"/>
+        </Debugging>
+      </Linking>
+      <Other>
+        <CompilerMessages>
+          <MsgFileName Value=""/>
+        </CompilerMessages>
+        <CompilerPath Value="$(CompPath)"/>
+      </Other>
+    </CompilerOptions>
+    <Description Value="A simple RELAX NG Processor.
+
+http://en.wikipedia.org/wiki/RELAX_NG
+http://relaxng.org/tutorial-20011203.html
+"/>
+    <License Value="Modified LGPL.
+
+Read the file COPYING.modifiedLGPL.txt for more informations."/>
+    <Version Release="1"/>
+    <Files Count="2">
+      <Item1>
+        <Filename Value="../RelaxNG_Model.pas"/>
+        <UnitName Value="RelaxNG_Model"/>
+      </Item1>
+      <Item2>
+        <Filename Value="../RelaxNG_Processor.pas"/>
+        <UnitName Value="RelaxNG_Processor"/>
+      </Item2>
+    </Files>
+    <Type Value="RunAndDesignTime"/>
+    <RequiredPkgs Count="1">
+      <Item1>
+        <PackageName Value="FCL"/>
+      </Item1>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>
