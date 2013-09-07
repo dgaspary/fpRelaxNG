@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="1">
+      <Unit0>
+        <Filename Value="simple_processor.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="simple_processor"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <FoldState Value=" TL00U("/>
+        <UsageCount Value="26"/>
+        <Loaded Value="True"/>
+      </Unit0>
+    </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+  </ProjectSession>
+  <EditorMacros Count="0"/>
+</CONFIG>

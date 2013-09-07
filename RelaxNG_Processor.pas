@@ -46,17 +46,17 @@ type
     TRelaxNgProcessor = class;
 
     TRngElementEvent = procedure (AProcessor: TRelaxNgProcessor;
-                                  AnElement: TRelaxNGElement;
+                                  Element: TRelaxNGElement;
                                   var ProcessChildren: boolean = true) of object;
 
     TRngAfterElementEvent = procedure (AProcessor: TRelaxNgProcessor;
-                                       AnElement: TRelaxNGElement;
+                                       Element: TRelaxNGElement;
                                        ChildrenProcessed: boolean;
                                        APathIndex: integer = -1) of object;
 
 
     TRngAlreadyProcessedElementFound = procedure (AProcessor: TRelaxNgProcessor;
-                                           AnElement: TRelaxNGElement) of object;
+                                           Element: TRelaxNGElement) of object;
 
 
     TRngElementEventsRec = record

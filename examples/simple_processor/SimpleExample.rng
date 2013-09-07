@@ -1,0 +1,5 @@
+<element name="MainElement" xmlns="http://relaxng.org/ns/structure/1.0"> 
+  <attribute name="attr1">
+    <text/>
+  </attribute>
+</element>
